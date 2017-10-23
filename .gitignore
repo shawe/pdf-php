@@ -9,6 +9,19 @@ error.log
 
 # ignore the composer.phar if its located in project root
 composer.phar
+composer.json
 
-# ignore alle *.pdf file in the examples directory
-examples/*.pdf
+# ignore files from root
+.travis.xml
+data.txt
+README.md
+phpcs.xml
+phpunit.xml
+readme.*
+ros.jpg
+
+# ignore all examples
+examples
+compability
+tests
+
